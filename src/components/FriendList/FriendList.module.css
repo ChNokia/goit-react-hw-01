@@ -1,0 +1,7 @@
+.friensList {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+}

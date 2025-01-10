@@ -1,0 +1,78 @@
+.rofile_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid rgba(34, 28, 28, 1);
+}
+
+.avatar_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.avatar_img {
+  border-radius: 50%;
+  border: 2px solid rgba(34, 28, 28, 0.3);
+  width: 200px;
+  height: 200px;
+  background-color: rgb(34, 28, 28);
+  margin-bottom: 10px;
+}
+
+.avatar_name {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+.avatar_tag {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(29, 27, 27, 0.4);
+  margin-bottom: 4px;
+}
+
+.avatar_location {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(29, 27, 27, 0.4);
+}
+
+.followers_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.followers_list_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-right: 2px solid rgba(29, 27, 27, 0.4);
+  border-top: 2px solid rgba(29, 27, 27, 0.4);
+  background-color: rgb(216, 216, 216);
+}
+
+.followers_list_item:last-child {
+  border-right: none;
+}
+
+.followers_list_item_title {
+  font-weight: 400;
+}
+
+.followers_list_item_value {
+  font-weight: bold;
+}
